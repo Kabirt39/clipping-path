@@ -1,0 +1,86 @@
+body .amazon_deals_sales {
+  padding: 130px 0px 70px;
+  background: #fcfcfc;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 {
+  margin-bottom: 30px;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg {
+  background-image: url("/img/page8_contant.png");
+  background-size: cover;
+  border-radius: 35px;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg .col_md_amazon {
+  background: #26283d;
+  opacity: .9;
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  border: 5px solid #01ff79;
+  border-radius: 35px;
+  position: relative;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg .col_md_amazon .amazon_deals_sales_content {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg .col_md_amazon .amazon_deals_sales_content h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg .col_md_amazon .amazon_deals_sales_content p {
+  color: #b0b2cb;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg .col_md_amazon .amazon_deals_sales_content h6 {
+  color: #eadc01;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+body .amazon_deals_sales .container .row .col-md-6 .amazon_left_bg .col_md_amazon .amazon_deals_sales_content h6 span {
+  color: #1e9055;
+}
+
+body .amazon_deals_sales .container .row .col-md-12 .col_md_amazon_bottom {
+  margin-top: 60px;
+  text-align: center;
+}
+
+body .amazon_deals_sales .container .row .col-md-12 .col_md_amazon_bottom a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: #cecece;
+  border-radius: 15px;
+  border: 1px solid #cecece;
+  padding: 4px 15px;
+  margin: 0px 2px;
+}
+
+body .amazon_deals_sales .container .row .col-md-12 .col_md_amazon_bottom a.col_md_amazon_bottom_a1 {
+  color: #0edc70;
+  border: 1px solid #0edc70;
+}
+
+body .amazon_deals_sales .container .row .col-md-12 .col_md_amazon_bottom a.col_md_amazon_bottom_a2 {
+  color: #fff;
+  border: 1px solid #0edc70;
+  background: #0edc70;
+}
+
+@media (max-width: 767px) {
+  body .amazon_deals_sales {
+    padding: 70px 0px 70px;
+  }
+}
+/*# sourceMappingURL=page_8.css.map */

@@ -1,0 +1,247 @@
+body {
+  /*======Prises*/
+  /*Image Section*/
+  /*======Our Services Part======*/
+}
+
+body .our_prices_bg .our_section_part {
+  width: 520px;
+  margin: auto;
+}
+
+body .our_prices_bg .our_section_part .single_part_section h2 {
+  font-size: 25px;
+  color: #292D44;
+  margin-bottom: 60px;
+  font-weight: 400;
+}
+
+body .our_prices_bg .our_section_part .single_part_section p {
+  color: #646464;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+body .our_prices_bg .our_section_part .single_part_section .bottom_bar {
+  margin-top: 60px;
+}
+
+body .our_prices_bg .our_section_part .single_part_section .bottom_bar a {
+  padding: 15px 30px;
+  color: #2A2B2B;
+  background-color: #EADC01;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+body .our_image_section .image_section_content h2 {
+  font-size: 25px;
+  color: #292D44;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+body .our_image_section .image_section_content p {
+  color: #646464;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+body .our_image_section .image_section_content .iamge_section_btn {
+  margin-top: 60px;
+}
+
+body .our_image_section .image_section_content .iamge_section_btn a {
+  padding: 15px 30px;
+  color: #102A35;
+  background-color: #00D967;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+body .our_image_section .single_image {
+  background-image: url("../img/female_img.jpg");
+  width: auto;
+  height: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+body .our_services .header_text {
+  margin-bottom: 60px;
+}
+
+body .our_services .header_text h2 {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: #191B36;
+}
+
+body .our_services .header_text h2 span {
+  color: #1FDC77;
+}
+
+body .our_services .header_text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #999999;
+}
+
+body .our_services .circle_sectio {
+  margin-top: 40px;
+}
+
+body .our_services .circle_sectio .circle a {
+  color: #2E3148;
+}
+
+body .our_services .circle_sectio .circle .circle_border {
+  border-radius: 50%;
+  margin: auto;
+  width: 390px;
+  height: 390px;
+  padding: 9px 9px;
+  border: 2px dotted #ddd;
+  position: relative;
+}
+
+body .our_services .circle_sectio .circle .circle_border .circle_bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(13, 208, 104, 0.9)), to(rgba(13, 208, 104, 0.9))), url("../img/hero-bg.jpg");
+  background: linear-gradient(rgba(13, 208, 104, 0.9), rgba(13, 208, 104, 0.9)), url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 370px;
+  padding: 10px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  border: 5px solid #ddd;
+}
+
+body .our_services .circle_sectio .circle .circle_border .circle_bg a {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px 30px;
+  background: #00D968;
+  color: #103239;
+  display: inline-block;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 2px 2px #0BCC63;
+          box-shadow: 0px 0px 2px 2px #0BCC63;
+}
+
+body .our_services .circle_sectio .circle_text_1 {
+  position: absolute;
+  top: -37px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+body .our_services .circle_sectio .circle_text_1 a {
+  color: #22DD7B;
+}
+
+body .our_services .circle_sectio .circle_text_1::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #E9DB03;
+  color: #fff;
+  bottom: -17px;
+  left: 40px;
+  padding: 3px;
+  border: 3px solid #B1F2C5;
+}
+
+body .our_services .circle_sectio .circle_text_2 {
+  position: absolute;
+  top: 72px;
+  left: -14%;
+  margin-left: -30px;
+}
+
+body .our_services .circle_sectio .circle_text_2 a {
+  text-decoration: none;
+  color: #EEE43F;
+}
+
+body .our_services .circle_sectio .circle_text_2::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #E9DB03;
+  color: #fff;
+  right: -25px;
+  bottom: 6px;
+  padding: 3px;
+  border: 3px solid #B1F2C5;
+}
+
+body .our_services .circle_sectio .circle_text_3 {
+  position: absolute;
+  top: 72px;
+  right: -20%;
+  margin-left: -30px;
+}
+
+body .our_services .circle_sectio .circle_text_4 {
+  position: absolute;
+  top: 200px;
+  left: -28%;
+  margin-left: -30px;
+}
+
+body .our_services .circle_sectio .circle_text_5 {
+  position: absolute;
+  top: 200px;
+  right: -25%;
+  margin-left: -30px;
+}
+
+body .our_services .circle_sectio .circle_text_6 {
+  position: absolute;
+  bottom: 60px;
+  left: -10%;
+  margin-left: -30px;
+}
+
+body .our_services .circle_sectio .circle_text_7 {
+  position: absolute;
+  bottom: 60px;
+  right: -20%;
+  margin-left: -30px;
+}
+
+body .our_services .circle_sectio .circle_text_8 {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -46px;
+}
+/*# sourceMappingURL=page_2.css.map */
