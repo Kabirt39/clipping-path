@@ -201,7 +201,7 @@ body {
         background-repeat: no-repeat;
         position: relative;
         overflow: hidden;
-        padding: 0;
+        padding: 130px 0px;
         .counte_part{
             .single_count{
                 h2{
@@ -213,6 +213,29 @@ body {
                     padding: 15px 30px;
                     border-radius: 30px;
                     margin-bottom: 0px;
+                }
+            }
+        }
+        
+    }
+
+    // footer top icon
+    .go_to_top{
+        width: 70px;
+        height: 70px;
+        background-color: #00D968;
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        margin-left: -10px;
+        border-radius: 50%;
+        text-align: center;
+        .gump_top{
+            a{
+                color: #0C5A41;
+                i{
+                    font-size: 22px;
+                    padding-top: 5px;
                 }
             }
         }
@@ -247,33 +270,13 @@ body {
             }
         }
 
-        .payment_area_botton {
-            z-index: 1;
-            text-align: center;
-
-            a {
-                display: inline-block;
-                text-decoration: none;
-                height: 70px;
-                width: 70px;
-                border-radius: 50%;
-                background: #00d968;
-                margin-bottom: -42px;
-
-                i {
-                    font-size: 30px;
-                    color: #121631;
-                    padding-top: 1px;
-                    font-weight: 300;
-                }
-            }
-        }
+        
 
         .payment_bottom {
             height: 100px;
             width: 100%;
             z-index: 2;
-            background: #121631;
+            background: transparent;
             position: relative;
         }
     }
@@ -281,6 +284,7 @@ body {
     .footer_area {
         background: #121631;
         padding-top: 27px;
+        position: relative;
 
         //variable
         $font-size: 16px;
@@ -290,9 +294,7 @@ body {
         $h3-fontcolor: #e9eaec;
         $h3-marginbottom: 35px;
         $h3-font-size: 25px;
-
         
-
         .footer_top {
             padding-bottom: 105px;
 
@@ -454,356 +456,9 @@ body {
         }
     }
     // ======================== Index Page =======================
-    .header_banner{
-        background-color: #00d968;
-        background-image: url('../img/index_header_banner.png');
-        background-position: right bottom;
-        background-repeat: no-repeat;
-        background-position-x: right;
-        padding: 230px 0px;
-        .container{
-            .row{
-                .col-md-7{
-                    .you_and_me {
-                        position: relative;
-                        display: inline-block;
-
-                        .you_and_me_img {
-                            position: absolute;
-                            left: 34px;
-                            z-index: 6;
-                            top: -63px
-                        }
-
-                        .you_and_me_img2 {
-                            position: absolute;
-                            right: 155px;
-                            z-index: 6;
-                            bottom: -55px;
-                        }
-
-                        ul {
-                            list-style: none;
-                            margin: 0px;
-                            padding: 0px;
-
-                            li {
-                                display: inline-block;
-                                position: relative;
-                                text-align: center;
-                                height: 111px;
-                                width: 111px;
-                                background: #343756;
-                                border-radius: 50%;
-                                border: 5px solid #00fe78;
-                                color: #00fe78;
-                                padding-top: 31px;
-                                line-height: 20px;
-                                margin: 0px -3px;
-                                z-index: 3;
-
-                                span {
-
-                                    &.you_top {
-                                        position: absolute;
-                                        top: -18px;
-                                        left: 33px;
-                                        height: 30px;
-                                        width: 30px;
-                                        background: #343756;
-                                        border-radius: 50%;
-                                        color: #ebdd00;
-                                        padding-top: 3px;
-                                    }
-
-                                    &.you_bottom {
-                                        position: absolute;
-                                        bottom: -18px;
-                                        left: 33px;
-                                        height: 30px;
-                                        width: 30px;
-                                        background: #343756;
-                                        border-radius: 50%;
-                                        color: #ebdd00;
-                                        padding-top: 3px;
-                                    }
-                                }
-                            }
-
-                            p {
-                                display: inline-block;
-                                position: relative;
-                                text-align: left;
-                                height: 60px;
-                                width: 153px;
-                                background: #343756;
-                                border-radius: 51px;
-                                border: 2px solid #00fe78;
-                                color: #00fe78;
-                                padding-top: 8px;
-                                line-height: 20px;
-                                margin-left: -44px;
-                                z-index: 1;
-                                padding-left: 52px;
-
-                                img {
-                                    position: absolute;
-                                    right: 11px;
-                                    top: 14px;
-                                }
-                            }
-                        }
-
-                    }
-                }
-                
-            }
-        }
-    }
-    //Conaction Part
-    .conaction_padding{
-        padding: 55px 0px;
-        background: linear-gradient(rgba(39,41,66, 0.9),rgba(39,41,66, 0.9)), url('../img/hero-bg.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        .conaction_part{
-            .conectino_text{
-                margin-top: -10px;
-                h2{
-                    color: #099E57;
-                    font-size: 30px;
-                }
-                p{
-                    color: #A4A8CA;
-                    margin-bottom: 0px;
-                    span{
-                        color: #099E57;
-                    }
-                }
-            }
-            .conaction_input{
-                input{
-                    padding: 5px 10px 15px 10px;
-                    background-color: #151934;
-                    color: #4D5279;
-                    border: none;
-                    width: 100%;
-                    border-radius: 5px;
-                    border: 2px solid #11142B;
-                    &:focus{
-                        box-shadow: none;
-                        outline: none;
-                    }
-                }
-            }
-            .conaction_btn{
-                margin-top: 10px;
-                position: relative;
-                a{
-                    text-transform: uppercase;
-                    font-size: 14px;
-                    font-weight: 700;
-                    color: #112B36;
-                    padding: 12px 30px;
-                    background-color: #00D968;
-                    border-radius: 20px;
-                    text-decoration: none;
-                    
-                }
-                &.conaction_btn2{
-                    a{
-                        position: absolute;
-                        left: -44px;
-                        top: -10px;
-                    }
-                }
-            }
-        }
-    }
-     /*======Client Part======*/
-     .client_part_bg{
-         padding: 130px 0px;
-        .client_sayes{
-            .main_dash{
-                position: relative;
-                margin-top: 40px;
-                .dash{
-                    width: 15px;
-                    height: 2px;
-                    display: inline-block;
-                    background-color: #2E2F48;
-                }
-                .strate{
-                    width: 2px;
-                    height: 15px;
-                    display: inline-block;
-                    margin: 0px 5px;
-                    background-color: #22DE7C;
-                }
-            }
-            .single_client_sayes{
-                .sclien_sayes_content{
-                    .client_img{
-                        width: 55px;
-                        height: 285px;
-                        border: 2px solid #00D968;
-                        border-radius: 30px;
-                        position: relative;
-                        .bg_client{
-                            width: auto;
-                            height: 50%;
-                            background: linear-gradient(rgba(39, 41, 66, 0.9), rgba(39, 41, 66, 0.9)), url("../img/person_1.jpg");
-                            background-position: center;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            border-radius: 30px 30px 0px 0px;
-                        }
-                        .bg_client2{
-                            width: auto;
-                            height: 50%;
-                            background: linear-gradient(rgba(39, 41, 66, 0.9), rgba(39, 41, 66, 0.9)), url("../img/person_4.jpg");
-                            border-radius: 0px 0px 30px 30px;
-                            background-position: center;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                        }
-                        .position_slient{
-                            position: absolute;
-                            top: 90px;
-                            left: -25px;
-                            width: 100px;
-                            height: 100px;
-                            border: 5px solid #00D968;
-                            border-radius: 50%;
-                            img{
-                                border-radius: 50%;
-                            }
-                        }
-                    }
-                    .col-md-9{
-                        .text_client{
-                            margin-right: 50px;
-                            margin-top: 65px;
-                            p{
-                                line-height: 22px;
-                                color: #7B7B7B;
-                                position: relative;
-                                margin-top: 15px;
-                                &::before{
-                                    content: ",,";
-                                    position: absolute;
-                                    top: -38px;
-                                    left: -16px;
-                                    font-size: 58px;
-                                    color: #f7efae;
-                                    font-weight: 700;
-                                }
-                            }
-                            h2{
-                                font-size: 18px;
-                                color: #272B44;
-                                margin-top: 20px;
-                                font-weight: 600;
-                            }
-                            a{
-                                color: #2EDF80;
-                            }
-                        }
-                    }
-                }
-                .trxt_textmonial{
-                    margin-bottom: 60px;
-                    h2{
-                        span{
-                            color: #02d866;
-                        }
-                        font-weight: 400;
-                    }
-                    p{
-                        color: #8f8f8f;
-                        font-weight: 400;
-                        margin-bottom: 0;
-                    }
-                }
-            }
-            .single_seayes_right{
-                .trxt_textmonial{
-                    margin-bottom: 60px;
-                    h2{
-                        span{
-                            color: #02d866;
-                        }
-                        font-weight: 400;
-                    }
-                    p{
-                        color: #8f8f8f;
-                        font-weight: 400;
-                        margin-bottom: 0;
-                    }
-                }
-                .box_customer_sayes{
-                    .bg_box{
-                        height: 225px;
-                        width: auto;
-                        background: linear-gradient(rgba(39, 41, 66, 0.9), rgba(39, 41, 66, 0.9)), url("../img/person_4.jpg");
-                        background-position: center;
-                        background-size: cover;
-                        background-repeat: no-repeat;
-                        border-radius: 20px;
-                        border: 5px solid #00D968;
-                        position: relative;
-                        box-shadow: 0px 0px 10px 3px #ddd;
-                        .text_part{
-                            position: absolute;
-                            left: 20px;
-                            bottom: 15px;
-                            h2{
-                                color: #fff;
-                                font-size: 18px;
-                                font-weight: 600;
-                            }
-                            .date_part{
-                                a{
-                                    color: #CFC40C;
-                                    font-size: 14px;
-                                }
-                                .color{
-                                    color: #00D968;
-                                }
-                            }
-                        }
-                        .img_part1{
-                            position: absolute;
-                            left: -5px;
-                            top: -5px;
-                            background-color: #fff;
-                            width: 150px;
-                            height: 65px;
-                            background: url("../img/person_4.jpg");
-                            background-position: center;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            border-radius: 20px 30px 30px 0px;
-                        }
-                        .img_part2{
-                            position: absolute;
-                            right: -5px;
-                            top: -5px;
-                            width: 150px;
-                            height: 65px;
-                            background: url("../img/person_4.jpg");
-                            background-position: center;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            border-radius: 30px 20px 0px 30px;
-                        }
-                    }
-                    
-                }
-            }
-        }
-    }
+    
+    
+    
      /*======Our Services Part======*/
      .our_services{
          padding: 130px 0px 120px;
@@ -856,6 +511,7 @@ body {
                         align-items: center;
                         margin: auto;
                         border: 5px solid #ddd;
+                        text-transform: uppercase;
                         
                         a{
                             font-size: 20px;
