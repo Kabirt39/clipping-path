@@ -227,6 +227,7 @@ body {
         position: absolute;
         bottom: -40px;
         left: 50%;
+        transform: translateX(-50%);
         margin-left: -10px;
         border-radius: 50%;
         text-align: center;
@@ -640,7 +641,7 @@ body {
             top: 0;
         }
         .single_img{
-            height: 470px;
+            height: 560px;
             width: 100%;
             margin: auto;
             overflow: hidden;
@@ -649,35 +650,19 @@ body {
             position: relative;
             .gallary_full{
                 .width_full{
-                    height: 470px;
+                    height: 560px;
                     width: 30%;
                     float: left;
                     cursor: pointer;
+                    background-position: center;
+                    background-image: url(/img/imdex_image_area1.png);
+                    background-repeat: no-repeat;
                     img{
                         width: 100%;
+                        height: 470px;
                     }
                 }
-                .hover_part{
-                    position: relative;
-                    &:hover{
-                        i.fa{
-                            position: absolute;
-                            left: 0;
-                            top: 0;
-                            align-items: center;
-                            justify-content: center;
-                            display: flex;
-                            font-size: 20px;
-                            color: #ddd;
-                            background: linear-gradient(rgba(39, 41, 66, 0.9), rgba(39, 41, 66, 0.9));
-                            height: 100%;
-                            width: 100%;
-                        }
-                    }
-                    i.fa{
-                        display: none;
-                    }
-                }
+                
             }
             .short_img{
                 width: 100%;

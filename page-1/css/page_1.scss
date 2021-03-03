@@ -166,6 +166,99 @@
     }
 }
 
+
+// Gallary Image
+    
+
+
+.image_top{
+    .container{
+        .image_gallary_img{
+            img{
+                width: 100%;
+            }
+            .sm_hover_part{
+                position: relative;
+                transition: all .5s;
+                &:hover{
+                    i{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        font-size: 20px;
+                        color: #ddd;
+                        background: #00c45e;
+                        opacity: .8;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                i{
+                    display: none;
+                }
+
+                &.image_gallary_img1 {
+                    &:hover {
+                        i {
+                            border-radius: 44px 0 0 44px;
+                        }
+                    }
+                }
+
+                &.image_gallary_img22 {
+                    &:hover {
+                        i {
+                            border-radius: 0 44px 0 0;
+                        }
+                    }
+                }
+
+                &.image_gallary_img3 {
+                    &:hover {
+                        i {
+                            border-radius: 0 0 44px 0;
+                        }
+                    }
+                }
+            }
+            .row{
+                .col-sm-3{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    &.image_gallary_img1{
+                        img{
+                            height: 560px;
+                        }
+                    }
+                    &.image_gallary_img3{
+                        img{
+                            height: 280px;
+                        }
+                    }
+                }
+                .col-sm-6{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    img{
+                        height: 280px;
+                    }
+                    &.image_gallary_img31{
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+                    .row{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
  /*======Client Part======*/
  .client_part_bg{
     padding: 130px 0px;
@@ -356,22 +449,142 @@
 //responsive
 @media (max-width: 1400px){}
 @media (max-width: 1200px){}
-@media (max-width: 991px){}
+@media (max-width: 991px){
+    .header_banner {
+        background: #00d968;
+        text-align: center;
+        padding: 129px 0px;
+    }
+    .conaction_padding .conaction_part .conaction_btn a {
+        padding: 12px 20px;
+    }
+}
 @media (max-width: 767px){
-    body .works_area .container .row .col-md-12 .you_and_me ul li{
+    body .header_banner .container .row .you_and_me ul li{
         height: 100px;
         width: 100px;
     } 
-    body .works_area .container .row .col-md-12 .you_and_me .you_and_me_img2 {
+    body .header_banner .container .row .you_and_me .you_and_me_img2 {
         right: 148px;
-        bottom: 58px;
+        bottom: -49px;
         width: 43%;
     }
-    body .works_area .container .row .col-md-12 .you_and_me .you_and_me_img {
+    body .header_banner .container .row .you_and_me .you_and_me_img {
         left: 38px;
-        top: -51px;
+        top: -57px;
         width: 43%;
+    }
+    
+    body .our_services .circle_sectio .circle .circle_border{
+        width: 160px;
+        height: 160px;
+        padding: 3px 3px;
+    }
+    body .our_services .circle_sectio .circle .circle_border .circle_bg{
+        width: 150px;
+        height: 150px;
+    }
+    .text_part a{
+       font-size: 12px;
+       padding: 10px 20px
+    }
+    body .our_services .circle_sectio .circle_text_2{
+        top: 15%;
+        left: -39%;
+    }
+    body .our_services .circle_sectio .circle .circle_border .circle_bg a{
+        font-size: 8px;
+        padding: 8px 13px;
+    }
+    body .our_services .circle_sectio .circle_text_3{
+        top: 11%;
+        right: -50%;
+    }
+    body .our_services .circle_sectio .circle_text_6{
+        bottom: 10%;
+        left: -20%;
+    }
+    body .our_services .circle_sectio .circle_text_7{
+        right: -52%;
+        bottom: 11%;
+    }
+    body .our_services .circle_sectio .circle_text_4{
+        top: 45%;
+        left: -54%;
+    }
+    body .our_services .circle_sectio .circle_text_5{
+        right: -53%;
+        top: 45%;
+    }
+    body .our_services .circle_sectio .circle_text_2 a {
+        padding: 10px 5px;
+    }
+    .conaction_padding .conaction_part .conectino_text {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .conaction_padding .conaction_part .conaction_input input{
+        margin-bottom: 30px;
+    }
+    body .image_top {
+        padding: 60px 0px;
+    }
+    .conaction_padding .conaction_part .conaction_btn.conaction_btn2 a {
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .single_count {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 576px){
+    body .header_banner .container .row .you_and_me ul li {
+        height: 70px;
+        width: 70px;
+        font-size: 11px;
+        line-height: 10px;
+        padding-top: 20px;
+    }
+    body .header_banner .container .row .you_and_me ul li span.you_top {
+        top: -18px;
+        left: 16px;
+        padding-top: 7px;
+    }
+    body .header_banner .container .row .you_and_me ul li span.you_bottom {
+        left: 17px;
+        padding-top: 9px;
+    }
+    body .header_banner .container .row .you_and_me ul p {
+        display: none;
+    }
+    body .header_banner .container .row .you_and_me .you_and_me_img {
+        left: 33px;
+        top: -39px;
+        width: 53%;
+    }
+    body .header_banner .container .row .you_and_me .you_and_me_img2 {
+        right: 22px;
+        bottom: -40px;
+        width: 57%;
+    }
+    body .our_services .circle_sectio .circle_text_2 {
+        top: 9%;
+        left: -32%;
+    }
+    body .our_services .circle_sectio .circle_text_4 a {
+        font-size: 8px;
+    }
+   
+    body .our_services .circle_sectio .circle_text_4 {
+        top: 36%;
+        left: -42%;
+    }
+    .client_part_bg .client_sayes .single_client_sayes .sclien_sayes_content .client_img .position_slient{
+        left: 0;
+        
     }
 }
-@media (max-width: 576px){}
 @media (max-width: 390px){}
