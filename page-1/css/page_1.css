@@ -530,6 +530,12 @@
   .single_count {
     margin-bottom: 30px;
   }
+  .client_part_bg .client_sayes .main_dash {
+    display: none;
+  }
+  .client_part_bg .client_sayes .single_seayes_right .trxt_textmonial h2 {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -575,6 +581,17 @@
   }
   .client_part_bg .client_sayes .single_client_sayes .sclien_sayes_content .client_img .position_slient {
     left: 0;
+  }
+  .image_top .container .image_gallary_img .row .col-sm-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .image_top .container .image_gallary_img .row .col-sm-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .image_top .container .image_gallary_img .row .col-sm-6 .row {
+    margin-left: calc(var(--bs-gutter-x)/ -2);
   }
 }
 /*# sourceMappingURL=page_1.css.map */
