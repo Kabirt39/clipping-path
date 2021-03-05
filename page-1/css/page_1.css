@@ -468,50 +468,6 @@
     top: -57px;
     width: 43%;
   }
-  body .our_services .circle_sectio .circle .circle_border {
-    width: 160px;
-    height: 160px;
-    padding: 3px 3px;
-  }
-  body .our_services .circle_sectio .circle .circle_border .circle_bg {
-    width: 150px;
-    height: 150px;
-  }
-  .text_part a {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
-  body .our_services .circle_sectio .circle_text_2 {
-    top: 15%;
-    left: -39%;
-  }
-  body .our_services .circle_sectio .circle .circle_border .circle_bg a {
-    font-size: 8px;
-    padding: 8px 13px;
-  }
-  body .our_services .circle_sectio .circle_text_3 {
-    top: 11%;
-    right: -50%;
-  }
-  body .our_services .circle_sectio .circle_text_6 {
-    bottom: 10%;
-    left: -20%;
-  }
-  body .our_services .circle_sectio .circle_text_7 {
-    right: -52%;
-    bottom: 11%;
-  }
-  body .our_services .circle_sectio .circle_text_4 {
-    top: 45%;
-    left: -54%;
-  }
-  body .our_services .circle_sectio .circle_text_5 {
-    right: -53%;
-    top: 45%;
-  }
-  body .our_services .circle_sectio .circle_text_2 a {
-    padding: 10px 5px;
-  }
   .conaction_padding .conaction_part .conectino_text {
     margin-top: 0;
     margin-bottom: 30px;
@@ -568,17 +524,6 @@
     bottom: -40px;
     width: 57%;
   }
-  body .our_services .circle_sectio .circle_text_2 {
-    top: 9%;
-    left: -32%;
-  }
-  body .our_services .circle_sectio .circle_text_4 a {
-    font-size: 8px;
-  }
-  body .our_services .circle_sectio .circle_text_4 {
-    top: 36%;
-    left: -42%;
-  }
   .client_part_bg .client_sayes .single_client_sayes .sclien_sayes_content .client_img .position_slient {
     left: 0;
   }
@@ -592,6 +537,33 @@
   }
   .image_top .container .image_gallary_img .row .col-sm-6 .row {
     margin-left: calc(var(--bs-gutter-x)/ -2);
+  }
+  .header_banner {
+    padding: 85px 0px;
+  }
+  body .clipping_process {
+    padding: 73px 0px 0px;
+  }
+  body .payment_area .container .row .col-md-12 h3 {
+    margin-top: 30px;
+  }
+  body .payment_area .container .row .col-md-12 .payment_logo {
+    margin-bottom: 20px;
+  }
+  body .image_top {
+    padding: 25px 0px 60px;
+  }
+  body .image_top .trxt_textmonial {
+    margin-bottom: 35px;
+  }
+  .client_part_bg {
+    padding: 40px 0px 50px;
+  }
+  .client_part_bg .client_sayes .single_client_sayes .trxt_textmonial {
+    margin-bottom: 30px;
+  }
+  body .count_bg {
+    padding: 40px 0px;
   }
 }
 /*# sourceMappingURL=page_1.css.map */

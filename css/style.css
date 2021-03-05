@@ -191,7 +191,11 @@ body .count_bg .counte_part .single_count p {
   margin-bottom: 0px;
 }
 
-body .go_to_top {
+body .footer_top_icon {
+  position: relative;
+}
+
+body .footer_top_icon .go_to_top {
   width: 70px;
   height: 70px;
   background-color: #00D968;
@@ -205,11 +209,11 @@ body .go_to_top {
   text-align: center;
 }
 
-body .go_to_top .gump_top a {
+body .footer_top_icon .go_to_top .gump_top a {
   color: #0C5A41;
 }
 
-body .go_to_top .gump_top a i {
+body .footer_top_icon .go_to_top .gump_top a i {
   font-size: 22px;
   padding-top: 5px;
 }
@@ -1065,6 +1069,50 @@ body .footer_area_ .footer_bottom .container .row .col-md-12 p span {
   body .footer_area .footer_top {
     padding-bottom: 31px;
   }
+  body .our_services .circle_sectio .circle .circle_border {
+    width: 160px;
+    height: 160px;
+    padding: 3px 3px;
+  }
+  body .our_services .circle_sectio .circle .circle_border .circle_bg {
+    width: 150px;
+    height: 150px;
+  }
+  .text_part a {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  body .our_services .circle_sectio .circle_text_2 {
+    top: 15%;
+    left: -39%;
+  }
+  body .our_services .circle_sectio .circle .circle_border .circle_bg a {
+    font-size: 8px;
+    padding: 8px 13px;
+  }
+  body .our_services .circle_sectio .circle_text_3 {
+    top: 11%;
+    right: -50%;
+  }
+  body .our_services .circle_sectio .circle_text_6 {
+    bottom: 10%;
+    left: -20%;
+  }
+  body .our_services .circle_sectio .circle_text_7 {
+    right: -52%;
+    bottom: 11%;
+  }
+  body .our_services .circle_sectio .circle_text_4 {
+    top: 45%;
+    left: -54%;
+  }
+  body .our_services .circle_sectio .circle_text_5 {
+    right: -53%;
+    top: 45%;
+  }
+  body .our_services .circle_sectio .circle_text_2 a {
+    padding: 10px 5px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1134,6 +1182,23 @@ body .footer_area_ .footer_bottom .container .row .col-md-12 p span {
   }
   body .clipping_process .container .row .col-md-12 .clipping_process_top h2 {
     font-size: 25px;
+  }
+  body .our_services .circle_sectio .circle_text_2 {
+    top: 9%;
+    left: -32%;
+  }
+  body .our_services .circle_sectio .circle_text_4 a {
+    font-size: 8px;
+  }
+  body .our_services .circle_sectio .circle_text_4 {
+    top: 36%;
+    left: -42%;
+  }
+  body .our_services {
+    padding: 60px 0px 78px;
+  }
+  body .our_services .header_text {
+    margin-bottom: 25px;
   }
 }
 
